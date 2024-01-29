@@ -79,6 +79,7 @@ const SidebarContainer = styled.div`
         margin-bottom: 10px;
         border: 1px solid #49274b;
     }
+
 `;
 
 const SidebarHeader = styled.div`
@@ -92,6 +93,12 @@ const SidebarHeader = styled.div`
         font-size: 18px;
         background-color: #fff;
         border-radius: 999px;
+    }
+
+    @media (max-width: 500px) {
+        >.MuiSvgIcon-root{
+            display: none;
+        }
     }
 `;
 

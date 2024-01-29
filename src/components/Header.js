@@ -78,6 +78,10 @@ const HeaderSearch = styled.div`
         min-width: 30vw;
         color: white;
     }
+
+    @media (max-width: 500px) {
+        display: none;
+    }
 `;
 
 const HeaderContainer = styled.div`
@@ -100,6 +104,12 @@ const HeaderLeft = styled.div`
     >.MuiSvgIcon-root{
         margin-left: auto;
         margin-right: 30px;
+    }
+
+    @media (max-width: 500px) {
+        >.MuiSvgIcon-root{
+            display: none;
+        }
     }
 `;
 

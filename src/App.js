@@ -34,7 +34,7 @@ function App() {
   }
 
   return (
-    <div className="app">
+    <div>
       <BrowserRouter>
         {
           !user ? (
@@ -61,6 +61,7 @@ export default App;
 const AppBody = styled.div`
   display: flex;
   height: 100vh;
+  width: 100vw;
 `;
 
 const AppLoading = styled.div`

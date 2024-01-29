@@ -54,6 +54,10 @@ const SidebarOptionContainer = styled.div`
     >h3 >span{
         padding: 15px;
     }
+    
+    @media (max-width: 500px) {
+        margin-bottom: 5px;
+    }
 `;
 
 const SidebarOptionChannel = styled.h3`

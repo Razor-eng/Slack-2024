@@ -113,13 +113,22 @@ const ChatCenter = styled.div`
     >h3{
     font-size: 2em;
     color: lightgray;
-    max-width: 11em;
-    margin-left: 122px; 
+    max-width: 23%;
     }
 
     >.MuiSvgIcon-root{
         font-size: 12em;
         color: lightgray;
+    }
+
+    @media (max-width: 500px) {
+        >.MuiSvgIcon-root{
+            font-size: 5em;
+        }
+        >h3{
+            font-size: 1em;
+            max-width: 30%;
+        }
     }
 `;
 
@@ -156,6 +165,12 @@ const HeaderRight = styled.div`
     >p >.MuiSvgIcon-root{
         margin-right: 5px !important;
         font-size: 16px;
+    }
+
+    @media (max-width: 400px) {
+        p{
+            display: none;
+        }
     }
 `;
 
